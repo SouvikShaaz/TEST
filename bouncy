@@ -1,0 +1,19 @@
+CSS
+.bouncy{
+ animation:bouncy 5s infinite linear;
+ position:relative;
+}
+@keyframes bouncy {
+ 0%{top:0em}
+ 40%{top:0em}
+ 43%{top:-0.9em}
+ 46%{top:0em}
+ 48%{top:-0.4em}
+ 50%{top:0em}
+ 100%{top:0em;}
+}
+HTML
+<a href="something" class="button1 bouncy">Facebark</a>
+<a href="something" class="button1 bouncy" style="animation-delay:0.07s">SJWHub</a>
+<a href="something" class="button1 bouncy" style="animation-delay:0.14s">Plebbit</a>
+<a href="something" class="button1 bouncy" style="animation-delay:0.21s">4chin</a>
